@@ -1,0 +1,17 @@
+{
+  "name": "werf-demo-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.6"
+  }
+}
